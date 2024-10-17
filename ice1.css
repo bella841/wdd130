@@ -1,0 +1,33 @@
+h1 {
+    color: white;
+    font-size: 60px;
+    text-align:center;
+}
+li {
+    color: black;
+    font-size: 25px;
+}
+body {
+    background-color: cornflowerblue;
+}
+.pic {
+width: 300px;
+text-align: center;
+}
+
+p {
+    color:white;
+    font-size: 20px;
+}
+
+h2 {
+    color:white;
+}
+
+div {
+    width:50%;
+    margin: 0 auto;
+}
+.text {
+    text-align: center;
+}

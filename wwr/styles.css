@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a {
+    text-align: center;
+    color: rgb(14, 14, 95);
+    text-decoration: none;
+    padding: 35px;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center; 
+}
+
+#hero img {
+width:100%;
+
+}
+.button-box {
+    text-align: center; 
+}
+main section {
+    text-align: center; 
+    box-sizing: border-box;
+}
+
+#background {
+    height: 725px;
+}
+
+body {
+background-color:white;
+font-family: Karla, Verdana, sans-serif;
+padding: 0;
+margin: 0;
+}
+header {
+background-color:#f7d13a;
+font-family: Caveat, Georgia, 'Times New Roman', Times, serif;
+
+}
+nav a:hover {
+background-color: white;
+color: rgb(14, 14, 95)
+}
+.book, .join {
+background-color: whitesmoke;
+color: rgb(14, 14, 95);
+text-decoration: none;
+font-family: 18px;
+padding: 15px 30px;
+margin-top: 50px;
+border-radius: 5px;
+}
+.book:hover, .join:hover {
+background-color: #f7d13a;
+color: rgb(14, 14, 95);
+}
+#background {
+background-color: #f7d13a;
+}
+.msg {
+background-color: #3b94bd;
+line-height: 1.5em;
+padding: 35px;
+}
+footer {
+background-color: #f7d13a;
+color:rgb(14, 14, 95);
+font-size: 1.2em;
+padding: 25px 50px;
+margin-top: 200px;
+}
+.home-title {
+color:rgb(14, 14, 95);
+font-family: Caveat, Georgia, 'Times New Roman', Times, serif;
+font-size: 2em;
+margin-top: 10px;
+
+}
+h4 {
+color: rgb(14, 14, 95);
+font-family: Karla, Verdana, sans-serif;
+
+}
+.msg h2 {
+color:rgb(14, 14, 95);
+
+}
+
+.msg p {
+color:rgb(14, 14, 95);
+font-size: .8em;
+padding-bottom: 15px;
+}
+
+footer a {
+color:rgb(14, 14, 95);
+text-decoration: none;
+}
+
+footer a:hover {
+    color:rgb(14, 14, 95);
+}
+
+.logo {
+    width:80px;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: Karla, Verdana, sans-serif;
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #3b94bd;
+}
