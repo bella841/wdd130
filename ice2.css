@@ -1,5 +1,6 @@
-.content1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
+.maintext {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
 }
+

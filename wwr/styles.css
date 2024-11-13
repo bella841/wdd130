@@ -258,3 +258,41 @@ footer .social img {
         margin-top: 25px;
     }
 }
+
+/* Rivers Stylesheet */
+.title {
+    text-align: center;
+}
+.grid-container1 {
+display:grid;
+grid-template-columns: auto 1fr;
+align-items: center;
+max-width: 900px;
+margin: 0 auto;
+padding: 20px;
+
+}
+
+.river1 {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.text1 {
+    font-size: 1rem;
+    padding: 10px;
+}
+
+
+.image1 {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    padding-left: 10px;
+    border-radius: 8px;
+}
