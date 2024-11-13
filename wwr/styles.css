@@ -263,7 +263,7 @@ footer .social img {
 .title {
     text-align: center;
 }
-.grid-container1 {
+.grid-container1, .grid-container2, .grid-container3 {
 display:grid;
 grid-template-columns: auto 1fr;
 align-items: center;
@@ -273,26 +273,26 @@ padding: 20px;
 
 }
 
-.river1 {
+.river1, .river2, .river3 {
     display: grid;
     grid-template-rows: auto auto;
 }
 
-.caption {
+.caption, .caption2, .caption3 {
     font-weight: bold;
     margin-bottom: 10px;
     padding-left: 10px;
 }
-.text1 {
+.text1, .text2, .text3 {
     font-size: 1rem;
-    padding: 10px;
+    padding: 30px;
 }
 
 
-.image1 {
+.image1, .image2, .image3 {
     width: 100%;
     max-width: 400px;
     height: auto;
-    padding-left: 10px;
     border-radius: 8px;
+    box-shadow: 5px 5px 10px #153646;
 }
