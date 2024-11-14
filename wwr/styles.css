@@ -267,9 +267,9 @@ footer .social img {
 display:grid;
 grid-template-columns: auto 1fr;
 align-items: center;
-max-width: 900px;
+max-width: 70%;
 margin: 0 auto;
-padding: 20px;
+padding: 10px;
 
 }
 
@@ -285,7 +285,7 @@ padding: 20px;
 }
 .text1, .text2, .text3 {
     font-size: 1rem;
-    padding: 30px;
+    padding: 50px;
 }
 
 
@@ -293,6 +293,6 @@ padding: 20px;
     width: 100%;
     max-width: 400px;
     height: auto;
-    border-radius: 8px;
+    border-radius: 6px;
     box-shadow: 5px 5px 10px #153646;
 }
