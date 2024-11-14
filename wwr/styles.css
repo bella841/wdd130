@@ -263,6 +263,7 @@ footer .social img {
 .title {
     text-align: center;
     font-family: Caveat, Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
 }
 .grid-container1, .grid-container2, .grid-container3 {
 display:grid;
@@ -287,8 +288,8 @@ padding: 10px;
     
 }
 .text1, .text2, .text3 {
-    font-size: 1rem;
-    padding: 50px;
+    font-size: 15px;
+    padding: 60px;
     font-family: Karla, Verdana, sans-serif;
 }
 
