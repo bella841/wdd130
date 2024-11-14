@@ -78,7 +78,7 @@ color: rgb(14, 14, 95)
 background-color: whitesmoke;
 color: rgb(14, 14, 95);
 text-decoration: none;
-font-family: 18px;
+font-size: 18px;
 padding: 15px 30px;
 margin-top: 50px;
 border-radius: 5px;
@@ -193,7 +193,7 @@ footer .social img {
 }
 .card-img {
     border: 10px solid #3b94bd;
-    transition: transform .55;
+    transition: transform 0.55s;
     box-shadow: 5px 5px 10px #153646;
 }
 
