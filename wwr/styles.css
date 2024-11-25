@@ -266,12 +266,12 @@ footer .social img {
     font-size: 45px;
 }
 .grid-container1, .grid-container2, .grid-container3 {
-display:grid;
-grid-template-columns: auto 1fr;
-align-items: center;
-max-width: 70%;
-margin: 0 auto;
-padding: 10px;
+    display:grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 10px;
 
 }
 
