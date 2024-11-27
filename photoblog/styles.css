@@ -10,7 +10,7 @@ nav a {
 
 header {
     background-color:#003459;
-    font-family: Caveat, Georgia, 'Times New Roman', Times, serif;
+    font-family: Rubik, Georgia, 'Times New Roman', Times, serif;
     display: grid;
     grid-template-columns: 150px auto;
     }
@@ -73,7 +73,7 @@ footer {
 
     .title {
         text-align: center;
-        font-family: Caveat, Georgia, 'Times New Roman', Times, serif;
+        font-family: Rubik, Georgia, 'Times New Roman', Times, serif;
         font-size: 45px;
     }
     .gridcontainer1, .gridcontainer2, .gridcontainer3, .gridcontainer4, .gridcontainer5 {
@@ -91,17 +91,17 @@ footer {
         grid-template-rows: auto auto;
     }
     
-    .caption, .caption2, .caption3, .caption4, .caption5 {
+    .caption, .caption1, .caption2, .caption3, .caption4, .caption5 {
         font-weight: bold;
         margin-bottom: 10px;
         padding-left: 10px;
-        font-family: Karla, Verdana, sans-serif;
+        font-family: Itim, Verdana, sans-serif;
         
     }
     .paragraph1, .paragraph2, .paragraph3, .paragraph4, .paragraph5 {
         font-size: 20px;
         padding: 60px;
-        font-family: Karla, Verdana, sans-serif;
+        font-family: Itim, Verdana, sans-serif;
     }
     
     
@@ -112,7 +112,13 @@ footer {
         border-radius: 7px;
         box-shadow: 5px 5px 10px #153646;
     }
-    
+
+    .bulgariaimagecard:hover, .ecuadorimagecard:hover, .italyimagecard:hover, .franceimagecard:hover, .greeceimagecard:hover {
+        opacity: .8;
+        transform: scale(1.02);
+
+    }
+
 
     
 
