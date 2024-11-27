@@ -69,5 +69,50 @@ footer {
 
     }
 
+    /* info styles */
+
+    .title {
+        text-align: center;
+        font-family: Caveat, Georgia, 'Times New Roman', Times, serif;
+        font-size: 45px;
+    }
+    .gridcontainer1, .gridcontainer2, .gridcontainer3, .gridcontainer4, .gridcontainer5 {
+        display:grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        max-width: 70%;
+        margin: 0 auto;
+        padding: 10px;
+    
+    }
+    
+    .place1, .place2, .place3, .place4, .place5 {
+        display: grid;
+        grid-template-rows: auto auto;
+    }
+    
+    .caption, .caption2, .caption3, .caption4, .caption5 {
+        font-weight: bold;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        font-family: Karla, Verdana, sans-serif;
+        
+    }
+    .paragraph1, .paragraph2, .paragraph3, .paragraph4, .paragraph5 {
+        font-size: 20px;
+        padding: 60px;
+        font-family: Karla, Verdana, sans-serif;
+    }
+    
+    
+    .image1, .image2, .image3, .image4, .image5 {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        border-radius: 7px;
+        box-shadow: 5px 5px 10px #153646;
+    }
+    
+
     
 
