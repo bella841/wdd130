@@ -3,21 +3,29 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
-    padding: 35px;
-    font-size: 35px;
+    padding: 10px 12px;
+    font-size: 22px;
     font-family: Rubik;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
 }
 
 header {
     background-color:#003459;
     font-family: Rubik, Georgia, 'Times New Roman', Times, serif;
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 100px auto;
+    padding: 5px 10px;
     }
     
 nav {
     display: flex;
     justify-content: space-around;
+    padding: 10px 0;
+    margin: 0;
     }
 
 nav a:hover {
@@ -46,13 +54,15 @@ nav a:hover {
 h1 {
     font-family: Rubik;
     text-align: center;
+    font-size: 24px;
+    text-shadow: 1.5px  1.5px grey;
 }
 p {
     font-family: Itim;
     text-align: center;
     margin: 0;
-    padding: 10px;
-    font-size: 20px;
+    padding: 10px 20px;
+    font-size: 17px;
     
 }
 
@@ -95,6 +105,7 @@ footer {
         font-weight: bold;
         margin-bottom: 10px;
         padding-left: 10px;
+        font-size: 20px;
         font-family: Itim, Verdana, sans-serif;
         
     }
@@ -107,10 +118,11 @@ footer {
     
     .image1, .image2, .image3, .image4, .image5 {
         width: 100%;
-        max-width: 400px;
+        max-width: 250px;
         height: auto;
         border-radius: 7px;
         box-shadow: 5px 5px 10px #153646;
+        width: 80%;
     }
 
     .bulgariaimagecard:hover, .ecuadorimagecard:hover, .italyimagecard:hover, .franceimagecard:hover, .greeceimagecard:hover {
@@ -119,6 +131,5 @@ footer {
 
     }
 
-
-    
+/* Bulgaria Stylesheet */
 
