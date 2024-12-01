@@ -133,3 +133,62 @@ footer {
 
 /* Bulgaria Stylesheet */
 
+.bulgariahero {
+    width: 80%; /* You can keep this as 80% for the image width */
+    max-width: 1000px;
+    height: auto;
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px #153646;
+    margin: 0 auto;
+}
+
+.containerbulg1
+{
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: auto; 
+}
+
+.paragraphbulg1, .paragraphbulg2, .paragraphbulg3, .paragraphbulg4 {
+    display:grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.imagesbulg1, .imagesbulg2, .imagesbulg3, .imagesbulg4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px;
+    gap: 10px;
+    border-radius: 7px;
+    
+
+}
+
+
+.polaroid1, .polaroid2, .polaroid3, .polaroid4, .polaroid5, .polaroid6, .polaroid7, .polaroid8, .polaroid9, .polaroid10, .polaroid11, .polaroid12 {
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 7px;
+    max-width: 300px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.polaroid1 img, .polaroid2 img, .polaroid3 img, .polaroid4 img, .polaroid5 img, .polaroid6 img, .polaroid7 img, .polaroid8 img, .polaroid9 img, .polaroid10 img, .polaroid11 img, .polaroid12 img {
+    border-radius: 7px;
+    width: 100%;
+    height: auto;
+
+}
+
+.polaroid-text1, .polaroid-text2, .polaroid-text3, .polaroid-text4, .polaroid-text5, .polaroid-text6, .polaroid-text7, .polaroid-text8, .polaroid-text9, .polaroid-text10, .polaroid-text11 {
+    font-family: Itim, Verdana, sans-serif; 
+
+}
