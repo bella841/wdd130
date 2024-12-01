@@ -84,7 +84,7 @@ footer {
     .title {
         text-align: center;
         font-family: Rubik, Georgia, 'Times New Roman', Times, serif;
-        font-size: 45px;
+        font-size: 35px;
     }
     .gridcontainer1, .gridcontainer2, .gridcontainer3, .gridcontainer4, .gridcontainer5 {
         display:grid;
