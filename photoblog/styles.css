@@ -192,3 +192,23 @@ footer {
     font-family: Itim, Verdana, sans-serif; 
 
 }
+
+
+.tips {
+    font-family: Rubik, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+ul {
+    font-family: Itim, Verdana, sans-serif;
+}
+
+.containerbulg2 {
+    display:grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+
+}
